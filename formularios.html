@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularios.css">
+    <link rel="shortcut icon" href="/Recursos/Imagenes/ZWhite.ico" type="image/x-icon">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Texto</a></li>
+                <li><a href="multimedia.html" target="_blank">Multimedia</a></li>
+                <li><a href="tablas.html" target="_blank">Tablas</a></li>
+                <li><a href="formularios.html" target="_blank">Formularios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="arriba">Formularios</h1>
+    <div class="texto">
+        <div ¿Cómo?>
+            <h2>▶ ¿Cómo?</h2>
+            <p>
+                Para insertar un formulario se debe usar la etiqueta &ltform&gt&lt/form&gt<br>
+                Dentro de la etiqueta de &ltform&gt debemos usar otra etiqueta llamada &ltinput&gt que tiene varios atributos de tipo "type" los cuales nos ayudaran a especificar que tipo de formulario estamos haciendo.<br>
+                <b>Por ejemplo:</b> &ltinput type="text"&gt lo que nos abrirá una casilla donde podremos ingresar texto.<br>
+                Algunos de los tipos de "input" son:
+            </p>
+        </div>
+        <div type="text">
+            <h2>▶ Input tipo texto</h2>
+            <p>
+                &ltinput type="text"&gt nos abre una casilla donde podremos ingresar texto como nos plazca. <br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="text">
+                </form>
+            </p>
+        </div>
+        <div type="password">
+            <h2>▶ Input tipo contraseña</h2>
+            <p>
+                &ltinput type="password"&gt nos abre una casilla donde podremos ingresar lo que queramos sin embargo va a aparecer como si fuera una contraseña. <br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="password">
+                </form>
+            </p>
+        </div>
+        <div type="number">
+            <h2>▶ Input tipo numeros</h2>
+            <p>
+                &ltinput type="number"&gt nos abre una casilla donde podremos ingresar solamente numeros.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="number">
+                </form>
+            </p>
+        </div>
+        <div type="email">
+            <h2>▶ Input tipo email</h2>
+            <p>
+                &ltinput type="email"&gt nos abre una casilla donde debemos ingresar un email.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="email">
+                </form>
+            </p>
+        </div>
+        <div type="color">
+            <h2>▶ Input tipo color</h2>
+            <p>
+                &ltinput type="color"&gt nos abre una casilla donde podremos elegir algún color.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="color">
+                </form>
+            </p>
+        </div>
+        <div type="range">
+            <h2>▶ Input tipo rango</h2>
+            <p>
+                &ltinput type="range" min="1" max="5"&gt nos abre una casilla donde podremos elegir en este caso del 1 al 5, en los atributos "min" y "max" se pueden ajustar los valores minimos y maximos del rango de numeros a elegir.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="range" min="1" max="5">
+                </form>
+            </p>
+        </div>
+        <div type="date">
+            <h2>▶ Input tipo fecha</h2>
+            <p>
+                &ltinput type="date"&gt nos abre una casilla donde podremos elegir alguna fecha.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="date">
+                </form>
+            </p>
+        </div>
+        <div type="time">
+            <h2>▶ Input tipo hora</h2>
+            <p>
+                &ltinput type="time"&gt nos abre una casilla donde podremos elegir alguna hora.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="time">
+                </form>
+            </p>
+        </div>
+        <div type="button">
+            <h2>▶ Input tipo botón</h2>
+            <p>
+                &ltinput type="button" value="Hola"&gt nos abre un botón con algún botón que podemos presionar, con el atributo "value" se le puede añadir un valor al botón<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="button" value="Hola">
+                </form>
+            </p>
+        </div>
+        <div type="submit">
+            <h2>▶ Input tipo enviar</h2>
+            <p>
+                &ltinput type="submit"&gt nos abre un botón que si presionamos, enviaremos los datos contestados en los demás inputs.<br>
+                <b>Ejemplo: </b>
+                <form>
+                    <input type="submit">
+                </form>
+            </p>
+        </div>
+        <div extra>
+            <h2>▶ Extra:</h2>
+            <p>
+                A todos los inputs se les puede añadir el atributo "required" para que el formulario no se pueda enviar sin haber contestado ese input especifico al que le añadimos el atributo "required". <br>
+                A los inputs tambien se les puede añadir el atributo "value" que les dará un valor inicial a los inputs. <br>
+                Los formularios solo con HTML suelen ser inutiles, pueden ser utiles si los usas con javascript.
+            </p>
+        </div>
+        <div footer>
+            <footer>
+                <a href="#arriba">Volver a arriba</a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

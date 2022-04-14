@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+.texto {
+    color: aliceblue;
+    font-family:sans-serif;
+}
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    font-family:sans-serif;
+}
+p {
+    font-size: 20px;
+}
+a {
+    font-size: 20px;
+}
+a:link {
+    color: rgb(205, 120, 167);
+}
+a:visited {
+    color: rgb(207, 77, 122);
+}
+li {
+    color: aliceblue;
+    font-size: 20px;
+    font-family:sans-serif;
+}
